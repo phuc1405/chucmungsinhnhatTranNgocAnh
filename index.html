@@ -35,9 +35,9 @@
                 text-align: center;
                 width: 100%;
             }
-            .canvas {
-                margin: 0 auto;
-                display: block;
+            canvas {
+                position: absolute;
+                z-index: 0;
             }
             img#logo {
                 width: 128px;
@@ -90,6 +90,7 @@
     <div class="cs">
         <img src="https://1.bp.blogspot.com/-ciJx92ftXls/YGLZXgbmRgI/AAAAAAAArCg/iA9A_uU0qewj8ZgCpv6mCRqNuvo2YlZZACNcBGAsYHQ/s0/1d83a6d88d8be5b041a9a98fd5048311.jpeg" id="logo">
     </div>
+    <canvas id="rainCanvas"></canvas>
     <canvas class="canvas" width="1820" height="905"></canvas>
     <p class="text" style="color: #ed3073;">Đã đươc
     <span id="span_dt_dt"></span><br> quen nhau rùi đấy😘
@@ -580,3 +581,4 @@
 
 </body>
 </html>
+
